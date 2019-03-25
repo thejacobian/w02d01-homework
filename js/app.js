@@ -19,15 +19,24 @@ const spaceship = {
 const studentNames = ['Sami', 'Jake', 'Veda', 'David', 'Thomas'];
 // A list of student names from our class, each with a location.
 // I would use an array of objects for this because we want to keep track of two related things a property of a student and the student.
-const studentArray = [{"name":'Sami',"location":'SW Denver'}, {"name":'Jake', location:'NW Denver'}];
+const studentsArray = [{"name":'Sami',"location":'SW Denver'}, {"name":'Jake', location:'NW Denver'}];
 // A list of student names from our class, each with a location and each with a list of favorite tv shows.
 const studentsObj = {
-  Sami: { "location":'SW Denver', "tvShows": 'The Good Place'}, 
+  Sami: { "location":'SW Denver', "tvShows": 'The Good Place'},
   Jake: {"location":'NW Denver', "tvShows": 'The Expanse'},
 };
 
 // 2. Take it Easy
 // - Make an array that holds all of the colors of the rainbow.
+const rainbowArr = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 // - Write code that will access "blue" from the rainbow array.
+console.log(rainbowArr[4]);
 // - Make an object that is called your name and holds the information about your favorite food, a hobby, the name of the town that you live in currently, and your favorite datatype.
+const Jake = {
+  "favFood":'tacos',
+  "hobby": 'guitar',
+  "location": 'Denver',
+  "favDataType": 'objects',
+};
 // - Write code that will access your hobby from the object that you just created.
+console.log(Jake.hobby);
